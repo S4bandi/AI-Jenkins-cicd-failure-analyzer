@@ -339,7 +339,7 @@ CONFIG
                 --format table \
                 -o logs/trivy-report.txt \
                 "${IMAGE_TO_SCAN}"
-
+              
               status=$?
 
               echo "========== Trivy scan logs =========="
